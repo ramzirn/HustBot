@@ -27,7 +27,13 @@ async def send_message(message, user_message, is_private):
 
 
 def run_discord_bot():
-    TOKEN = "MTExMDE4Nzg5NTY2NDQxNDcyMQ.GbnJBE.BZIMl3X4kzQ-SVM5BcRibqXPxqa51D0O5Q31dE"
+    with open("token.txt", "r") as filin:
+
+     TOKEN=filin.read()
+
+     
+    
+   
     intents = discord.Intents.default()
     intents.message_content = True
     intents.voice_states = True
