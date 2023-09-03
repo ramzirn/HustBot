@@ -1,7 +1,16 @@
-Menu des commandes du bot Discord :
+Menu des commandes :
 
 - `!randomA`: Donne un anime aléatoire.
 - `!randomF` : Donne un film aléatoire.
 - `!listgenre` : Liste les genres de films disponibles.
 - `!film+nomGenre` : Donne un film aléatoire du genre sélectionné.
 - `!gif` : Donne un GIF aléatoire.
+
+
+Command Menu :
+
+    !randomA: Provides a random anime.
+    !randomF: Provides a random movie.
+    !listgenre: Lists available movie genres.
+    !film+nomGenre: Provides a random movie of the selected genre.
+    !gif: Provides a random GIF.
