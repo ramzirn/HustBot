@@ -18,7 +18,8 @@ def get_response(message: str) -> str:
     if p_message == '!randoma':
         return animegen()
     elif p_message=='!randomf':
-        return filmgen()
+        return 'Not available for now,we are working on it be patient :D.'
+        #return filmgen()
     elif p_message.startswith("!film"):
         return filmgenre(p_message.split("!film", 1)[1].strip())
     elif p_message =='!listgenre':
