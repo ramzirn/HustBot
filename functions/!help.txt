@@ -5,7 +5,7 @@ Menu des commandes :
 - `!listgenre` : Liste les genres de films disponibles.
 - `!film+nomGenre` : Donne un film aléatoire du genre sélectionné.(E.g: `!filmAction` or `!filmComedy`)
 - `!gif` : Donne un GIF aléatoire.
-
+------------------------------------------------------------------------------------
 
 Command Menu :
 
