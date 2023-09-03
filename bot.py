@@ -63,6 +63,13 @@ def run_discord_bot():
         if "nigga" in message.content:
             await message.guild.kick(message.author)
             await message.channel.send(f"Goodbye {message.author.mention}.")
+    
+
+    @client.event
+    async def on_ready():
+                                print(f"Connecté en tant que {client.user.name} (ID: {client.user.id})")
+                                print(f"Bot actuellement dans {len(client.guilds)} serveurs.")
+
         
         
     
