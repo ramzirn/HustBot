@@ -1,7 +1,7 @@
 Menu des commandes :
 
 - `!randomA`: Donne un anime aléatoire.
-- `!randomF` : Donne un film aléatoire.
+- `!randomF` : Donne un film aléatoire.(Indisponible pour l'instant)
 - `!listgenre` : Liste les genres de films disponibles.
 - `!film+nomGenre` : Donne un film aléatoire du genre sélectionné.(E.g: `!filmAction` or `!filmComedy`)
 - `!gif` : Donne un GIF aléatoire.
@@ -10,7 +10,7 @@ Menu des commandes :
 Command Menu :
 
     !randomA: Provides a random anime.
-    !randomF: Provides a random movie.
+    !randomF: Provides a random movie.(Currently unavailable)
     !listgenre: Lists available movie genres.
     !film+nomGenre: Provides a random movie of the selected genre.(E.g: `!filmAction` or `!filmComedy`)
     !gif: Provides a random GIF.
