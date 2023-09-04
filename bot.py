@@ -6,6 +6,7 @@ import time
 import asyncio
 import responses
 import random
+from functions.chat import *
 
 
 async def send_message(message, user_message, is_private):
@@ -63,14 +64,16 @@ def run_discord_bot():
         if "nigga" in message.content:
             await message.guild.kick(message.author)
             await message.channel.send(f"Goodbye {message.author.mention}.")
+        if message.mentions and any(user.id == 1110187895664414721 for user in message.mentions):
+            await message.channel.send(f"{message.author.mention}, {getanswer(message.content)}")
     
 
     @client.event
     async def on_ready():
                                 print(f"Connecté en tant que {client.user.name} (ID: {client.user.id})")
-                                print(f"Bot actuellement dans {len(client.guilds)} serveurs.")
+                                print(f"hust actuellement dans {len(client.guilds)} serveurs.")
 
-        
+
         
     
 
