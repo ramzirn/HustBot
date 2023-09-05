@@ -61,9 +61,7 @@ def run_discord_bot():
         else:
             await send_message(message, user_message, is_private=False)
         
-        if "nigga" in message.content:
-            await message.guild.kick(message.author)
-            await message.channel.send(f"Goodbye {message.author.mention}.")
+        
         if message.mentions and any(user.id == 1110187895664414721 for user in message.mentions):
             await message.channel.send(f"{message.author.mention}, {getanswer(message.content)}")
     

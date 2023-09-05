@@ -1,5 +1,17 @@
 import Brainshop
-brain = Brainshop.Brain(key="RVJbqTbDU4sVWBop" , bid = 177649)
+
+
+# Ouvrir le fichier en mode lecture
+with open('token2.txt', 'r') as fichier:
+    # Lire la première ligne et la stocker dans une variable
+    k = fichier.readline().strip()
+
+    # Lire la deuxième ligne et la stocker dans une autre variable
+    id = fichier.readline().strip()
+
+
+
+brain = Brainshop.Brain(key=k , bid = id)
 
 
 

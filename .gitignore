@@ -1,3 +1,5 @@
 token.txt
 functions/__pycache__/
 __pycache__/
+token2.txt
+.gitignore
